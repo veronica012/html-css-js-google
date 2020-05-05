@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 30%;
+
+}
+.header-right {
+    width: 50%;
+    height: 50px;
+    text-align: right;
+}
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.header-left a, .header-right a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+
+}
+.header-left a:hover, .header-right a:hover {
+    text-decoration: underline;
+}
