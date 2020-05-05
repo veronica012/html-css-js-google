@@ -3,18 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
+header {
     display: flex;
     justify-content: space-between;
 }
 
-.header-left {
-    width: 30%;
-
-}
 .header-right {
-    width: 50%;
-    height: 50px;
     text-align: right;
 }
 ul li {
@@ -35,8 +29,22 @@ ul li {
     text-decoration: underline;
 }
 .fa-th {
+    font-size: 18px;
     color: grey;
 }
 .fa-th:hover {
     color: black;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
 }
