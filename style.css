@@ -28,6 +28,8 @@ ul li {
     text-align: center;
     display: none;
     position: absolute;
+    right: 20%;
+
 }
 .dropdown img {
     width: 50px;
