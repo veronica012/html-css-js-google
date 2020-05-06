@@ -215,3 +215,11 @@ ul li {
 .bottom-right li:last-child {
     margin-right: 30px;
 }
+footer {
+    position: relative;
+
+}
+.privacy-bar {
+    position: absolute;
+
+}
