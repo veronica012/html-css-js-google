@@ -5,5 +5,6 @@ $(document).ready(function() {
     });
     $('.privacy-bar-right a:first-child').click(function() {
         var privacy_bar_hidden = $('.privacy-bar').hide();
+        //alternativa a hide --> fadeOut
     });
 });
