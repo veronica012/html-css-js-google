@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
 }
 main {
-    height: calc(100vh - 232px);
+    height: calc(100vh - 132px);
 }
 .main-menu {
     position: relative
@@ -217,9 +217,8 @@ ul li {
 }
 footer {
     position: relative;
-
 }
 .privacy-bar {
     position: absolute;
-
+    top: -100px;
 }
