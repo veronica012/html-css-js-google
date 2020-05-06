@@ -25,16 +25,17 @@ ul li {
     list-style-type: none;
 }
 .dropdown {
-    width: 230px;
+    width: 240px;
     border: 1px solid #e4e4e4;
     display: none;
     position: absolute;
     right: 20%;
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     background-color: white;
     z-index: 10;
+    text-align: center;
 }
 .dropdown li {
     width: 64px;
@@ -155,6 +156,9 @@ ul li {
 }
 .privacy-bar-left li {
     margin-left: 30px;
+}
+.privacy-bar-left li {
+    float: left;
 }
 .privacy-bar-right li a:first-child {
     text-transform: uppercase;
